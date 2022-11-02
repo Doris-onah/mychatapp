@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri&family=Arima:wght@700&family=Bebas+Neue&family=Big+Shoulders+Display&family=Bree+Serif&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Epilogue:wght@500;700&family=Fugaz+One&family=Grape+Nuts&family=Inter:wght@300;700&family=Josefin+Sans:wght@300;400;600&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Kumar+One+Outline&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Licorice&family=Lobster&family=Lobster+Two:wght@700&family=Macondo&family=Manrope:wght@500&family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Oswald&family=Outfit:wght@300;400;600&family=Overpass&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@400;600&family=Righteous&family=Roboto:wght@400;700&display=swap');
+.app {
+ max-height: 100%px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.app-con {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.home {
+  height: 700px;
+  width: 400px;
+  background-color: #0a0909;
+  border-radius: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  
+}
+.errorpage {
+  height: 700px;
+  width: 400px;
+  background-color: #f7f7f7;
+  border-radius: 50px;
+  
+}
+
+.login {
+  height: 900px;
+  display: flex;
+  width: 100%;
+  background: radial-gradient(100% 100% at 100% 0%, #edf3f7 0%, #1f2f46 100%);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%);
+ justify-content: center;
+  align-items: center;
+}
+.user-info {
+  width: 200px;
+  text-align: center;
+}
+.submit {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background: radial-gradient(100% 100% at 100% 0%, #42626b 0%, #b4d8d2 100%);
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+    0px 7px 13px -3px rgb(45 35 66 / 30%),
+    inset 0px -4px 0px rgb(58 65 111 / 50%);
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+}
+.home-box {
+  background-color: rgb(232, 238, 232);
+  height: 680px;
+  width: 370px;
+  border-radius: 30px;
+}
+.header {
+  background-color: rgb(4, 114, 23);
+  border-radius: 8px 8px 0px 0px;
+  height: 98px;
+  display: flex;
+  font-family: "lobster";
+}
+.apps {
+height: 20px;
+font-size: 20px;
+width: 370px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.apps-con {
+  height:30px ;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-box {
+  background-color: rgb(247, 247, 247);
+  height: 520px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.contact {
+  height: 500px;
+  width: 350px;
+  
+}
+ 
+.user-con {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+}
+hr {
+  width: 190px;
+  padding-left: 40px;
+}
+
+.show-user {
+  height: 110px;
+  width:350px;
+ display: flex;
+ text-align: left;
+ gap: 8px;
+ line-height: 6px;
+ 
+ 
+} 
+.paginating {
+  text-align: center;
+}
+.user-name {
+  line-height: 5px;
+}
+.btn {
+  all :unset
+
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.chat {
+  background-color: rgb(247, 247, 247);
+  height: 520px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat-box {
+  
+  height: 500px;
+  width: 350px;
+ 
+}
+ .search {
+   height: 50px;
+  
+ }
+ input {
+   height: 36px;
+   width: 320px;
+   border-radius: 10px;
+ }
+ .status {
+  background-color: rgb(247, 247, 247);
+  height: 520px;
+  width: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .status-box {
+   background-color: rgb(235, 234, 234);
+   height: 500px;
+   width: 350px;
+   display: flex;
+  
+ }
+ .status-pic {
+   height: 100px;
+   width: 100px;
+   border-radius: 50px;
+   border: 2px solid black;
+ }
+ .pic {
+   display: flex;
+   gap: 10px;
+ }
+ .input {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:340px ;
+ }
+
+.list,.loading {
+  text-align: center;
+  
+}
+.battery-icon {
+  width: 350px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.status-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+}
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
